@@ -39,14 +39,13 @@ const Navbar = () => {
 
   return (
     <div className="flex items-center justify-between p-4 shadow-md">
-      <h1 className="text-lg font-semibold">Header</h1>
+      <h1 className="text-lg font-semibold">Navbar</h1>
 
       {user && (
         <div className="relative">
-          {/* Dropdown Menu */}
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <button className="w-8 h-8 bg-transparent border-none rounded-full flex justify-center items-center">
+              <button className="w-8 h-8 bg-transparent cursor-pointer border-none rounded-full flex justify-center items-center">
                 <Image
                   src={user.imageUrl}
                   alt="User Avatar"
