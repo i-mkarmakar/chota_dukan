@@ -55,8 +55,8 @@ const Navbar = () => {
                 />
               </button>
             </DropdownMenuTrigger>
-            <DropdownMenuContent>
-              <DropdownMenuLabel>My Account</DropdownMenuLabel>
+            <DropdownMenuContent className="w-60 p-2 m-2" align="end">
+            <DropdownMenuLabel className="font-normal">My Account</DropdownMenuLabel>
               <DropdownMenuSeparator />
               <DropdownMenuItem asChild>
                 <Link href="/profile">
