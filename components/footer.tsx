@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Logo and copyright */}
           <div className="flex items-center space-x-4 mb-6 md:mb-0">
             <Link href="/" className="font-semibold">
-              CodeNearby
+            Chota दुकान
             </Link>
             <span className="text-sm text-muted-foreground">
               © {new Date().getFullYear()} All rights reserved
